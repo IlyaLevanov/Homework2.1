@@ -16,20 +16,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sKP-MW-oor">
-                                <rect key="frame" x="25" y="468" width="364" height="394"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sKP-MW-oor">
+                                <rect key="frame" x="25" y="474" width="364" height="397"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bsr-18-VUG">
-                                <rect key="frame" x="25" y="44" width="364" height="394"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bsr-18-VUG">
+                                <rect key="frame" x="25" y="69" width="364" height="397"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="bsr-18-VUG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="C5w-aZ-dU0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sKP-MW-oor" secondAttribute="bottom" id="XqI-FT-4JM"/>
+                            <constraint firstItem="sKP-MW-oor" firstAttribute="top" secondItem="bsr-18-VUG" secondAttribute="bottom" constant="8" id="IMx-zq-Dfa"/>
+                            <constraint firstAttribute="bottom" secondItem="sKP-MW-oor" secondAttribute="bottom" constant="25" id="SeM-El-3lG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sKP-MW-oor" secondAttribute="trailing" constant="25" id="axk-Mo-s9M"/>
+                            <constraint firstItem="bsr-18-VUG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="bOS-ir-2b0"/>
+                            <constraint firstItem="bsr-18-VUG" firstAttribute="height" secondItem="sKP-MW-oor" secondAttribute="height" id="h8Q-I5-WNs"/>
+                            <constraint firstItem="sKP-MW-oor" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="qBI-tQ-dgb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bsr-18-VUG" secondAttribute="trailing" constant="25" id="yFl-s6-3Ag"/>
+                            <constraint firstItem="bsr-18-VUG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="z5H-Zu-x8b"/>
                         </constraints>
                     </view>
                 </viewController>
